@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+	"bottom": "happylife:blocks/FillerBottom",
+        "top": "happylife:blocks/FillerTop",
+        "side": "happylife:blocks/FillerSideOn"
+    }
+}

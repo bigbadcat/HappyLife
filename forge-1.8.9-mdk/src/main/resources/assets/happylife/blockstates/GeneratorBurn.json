@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "happylife:GeneratorBurn" },
+        "facing=south": { "model": "happylife:GeneratorBurn", "y": 180 },
+        "facing=west":  { "model": "happylife:GeneratorBurn", "y": 270 },
+        "facing=east":  { "model": "happylife:GeneratorBurn", "y": 90 }
+    }
+}

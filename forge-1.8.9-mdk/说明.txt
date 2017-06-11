@@ -1,0 +1,9 @@
+﻿//使用步骤(需要翻墙下载一些库 建议用psiphon3[赛风3] 选择新加坡通道)
+
+1、打开命令行进入到此文件夹 运行 gradlew setupDecompWorkspace
+2、继续命令行 运行 gradlew eclipse
+3、此文件夹即为Eclipse的project，用Eclipse以Gradle项目打开即可
+4、gradlew build 发布jar 在build\libs文件夹下
+
+刷新
+gradlew cleanCache clean setupDecompWorkspace -info --refresh-dependencies

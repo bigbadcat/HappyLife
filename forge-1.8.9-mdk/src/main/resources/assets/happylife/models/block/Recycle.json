@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+	"bottom": "happylife:blocks/RecycleBottom",
+        "top": "happylife:blocks/RecycleTop",
+        "side": "happylife:blocks/RecycleSide"
+    }
+}

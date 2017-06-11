@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "happylife:blocks/GeneratorSide",
+        "down": "happylife:blocks/GeneratorBottom",
+        "up": "happylife:blocks/GeneratorTop",
+        "north": "happylife:blocks/GeneratorFrontBurn",
+        "east": "happylife:blocks/GeneratorSide",
+        "south": "happylife:blocks/GeneratorSide",
+        "west": "happylife:blocks/GeneratorSide"
+    }
+}

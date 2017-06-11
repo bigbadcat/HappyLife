@@ -1,0 +1,16 @@
+[
+{
+  "modid": "happylife",
+  "name": "Happy Life",
+  "description": "For happy game.",
+  "version": "1.0.1",
+  "mcversion": "1.8.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["XuXiang"],
+  "credits": "Study. Play.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

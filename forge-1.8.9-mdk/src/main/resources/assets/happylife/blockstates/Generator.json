@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "happylife:Generator" },
+        "facing=south": { "model": "happylife:Generator", "y": 180 },
+        "facing=west":  { "model": "happylife:Generator", "y": 270 },
+        "facing=east":  { "model": "happylife:Generator", "y": 90 }
+    }
+}

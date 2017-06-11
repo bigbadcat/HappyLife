@@ -1,0 +1,14 @@
+tile.Recycle.name=回收台
+tile.Chain.name=链块
+tile.Filler.name=填充器
+tile.Digger.name=挖掘机
+tile.Generator.name=发电机
+item.IronNugget.name=铁粒
+item.LeatherNugget.name=革片
+item.DiamondNugget.name=钻石粒
+item.ChainNet.name=链网
+item.ChainNugget.name=链扣
+item.WitherBomb.name=凋零炸弹
+item.Battery.name=蓄电池
+item.BatteryV2.name=强化蓄电池
+itemGroup.happylife=快乐生活
