@@ -3,6 +3,7 @@ tile.Chain.name=Chain
 tile.Filler.name=Filler
 tile.Digger.name=Digger
 tile.Generator.name=Generator
+tile.SpringBed.name=SpringBed
 item.IronNugget.name=Iron Nugget
 item.LeatherNugget.name=Leather Nugget
 item.DiamondNugget.name=Diamond Nugget

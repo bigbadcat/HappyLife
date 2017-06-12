@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+	"bottom": "happylife:blocks/SpringBedBottom",
+        "top": "happylife:blocks/SpringBedTop",
+        "side": "happylife:blocks/SpringBedSide"
+    }
+}

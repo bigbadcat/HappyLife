@@ -44,7 +44,7 @@ public class HappyLife {
 	//MOD信息
 	public static final String MODID = "happylife";
 	public static final String NAME = "Happy Life";
-    public static final String VERSION = "1.0.2";
+    public static final String VERSION = "1.0.3";
 
     @Instance(HappyLife.MODID)
     static public HappyLife instance;
@@ -60,6 +60,7 @@ public class HappyLife {
   	static public Block DiggerOn;
   	static public Block Generator;
   	static public Block GeneratorBurn;
+  	static public Block SpringBed;
 
 	//物品
 	static public Item IronNugget;
@@ -95,6 +96,7 @@ public class HappyLife {
 		DiggerOn = new BlockDigger(true);
 		Generator = new BlockGenerator(false);
 		GeneratorBurn = new BlockGenerator(true);
+		SpringBed = new BlockSpringBed();
 
 		//初始化物品
 		IronNugget = new ItemIronNugget();
@@ -150,6 +152,7 @@ public class HappyLife {
 		GameRegistry.addRecipe(new ItemStack(Battery), new Object[] {"A B", "CDE", "FFF", 'A', Items.iron_ingot, 'B', Items.gold_ingot, 'C', Items.redstone, 'D', Items.diamond, 'E', Items.quartz, 'F', Blocks.stone_pressure_plate});
 		GameRegistry.addRecipe(new ItemStack(BatteryV2), new Object[] {"ABC", "BDB", "EBF", 'A', Items.iron_ingot, 'B', Battery, 'C', Items.gold_ingot, 'D', Items.diamond, 'E', Items.redstone, 'F', Items.quartz});
 		GameRegistry.addRecipe(new ItemStack(Generator), new Object[] {"A B", "CDE", "AFA", 'A', Items.iron_ingot, 'B', Items.gold_ingot, 'C', Items.redstone, 'D', Items.diamond, 'E', Items.quartz, 'F', Blocks.furnace});
+		GameRegistry.addRecipe(new ItemStack(SpringBed), new Object[] {"AAA", "BBB", "CDC", 'A', Blocks.wool, 'B', Items.wheat, 'C', Blocks.planks, 'D', Items.iron_ingot});
 		TileEntityRecycle.initRecycleItems();
 
 		//注册渲染
@@ -161,6 +164,7 @@ public class HappyLife {
     		mesher.register(Item.getItemFromBlock(Filler), 0, new ModelResourceLocation(MODID + ":" + ((BlockFiller) Filler).getName(), "inventory"));
     		mesher.register(Item.getItemFromBlock(Digger), 0, new ModelResourceLocation(MODID + ":" + ((BlockDigger)Digger).getName(), "inventory"));
     		mesher.register(Item.getItemFromBlock(Generator), 0, new ModelResourceLocation(MODID + ":" + ((BlockGenerator)Generator).getName(), "inventory"));
+    		mesher.register(Item.getItemFromBlock(SpringBed), 0, new ModelResourceLocation(MODID + ":" + BlockSpringBed.Name, "inventory"));
 
     		//物品
     		mesher.register(IronNugget, 0, new ModelResourceLocation(MODID + ":" + ItemIronNugget.Name, "inventory"));
