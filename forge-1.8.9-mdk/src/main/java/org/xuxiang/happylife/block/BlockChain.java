@@ -27,9 +27,9 @@ public class BlockChain extends Block{
 		super(Material.iron, MapColor.grayColor);
 		setCreativeTab(HappyLife.tabHappyLife);
 		this.setUnlocalizedName(Name);
-		this.setHardness(5.0F);
-		this.setResistance(10.0f);
-		this.setStepSound(Block.soundTypeMetal);
+//		this.setHardness(5.0F);
+//		this.setResistance(10.0f);
+		this.setStepSound(Block.soundTypeCloth);
 		this.setHarvestLevel("pickaxe", 0);
 		GameRegistry.registerBlock(this, Name);
 	}
