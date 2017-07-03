@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+	"bottom": "happylife:blocks/CultureBoxBottom",
+        "top": "happylife:blocks/CultureBoxTop",
+        "side": "happylife:blocks/CultureBoxSide"
+    }
+}

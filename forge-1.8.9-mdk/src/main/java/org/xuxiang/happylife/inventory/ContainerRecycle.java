@@ -44,7 +44,7 @@ public class ContainerRecycle extends Container{
             }
             
             /**
-             * 但物品被拿走时。
+             * 当物品被拿走时。
              */
             public void onPickupFromSlot(EntityPlayer playerIn, ItemStack stack)
             {

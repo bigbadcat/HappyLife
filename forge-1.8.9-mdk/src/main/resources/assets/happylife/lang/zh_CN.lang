@@ -4,6 +4,7 @@ tile.Filler.name=填充器
 tile.Digger.name=挖掘机
 tile.Generator.name=发电机
 tile.SpringBed.name=弹簧床
+tile.CultureBox.name=培养箱
 item.IronNugget.name=铁粒
 item.LeatherNugget.name=革片
 item.DiamondNugget.name=钻石粒

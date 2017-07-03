@@ -2,6 +2,7 @@ package org.xuxiang.happylife;
 
 import org.xuxiang.happylife.client.gui.*;
 import org.xuxiang.happylife.inventory.*;
+import org.xuxiang.happylife.tileentity.TileEntityCultureBox;
 import org.xuxiang.happylife.tileentity.TileEntityDigger;
 import org.xuxiang.happylife.tileentity.TileEntityFiller;
 import org.xuxiang.happylife.tileentity.TileEntityGenerator;
@@ -19,6 +20,7 @@ public class GuiHandler implements IGuiHandler {
 	static public final int ID_FILLER = 2;
 	static public final int ID_DIGGER = 3;
 	static public final int ID_GENERATOR = 4;
+	static public final int ID_CULTURE_BOX = 5;
 	
     //returns an instance of the Container you made earlier
     @Override
@@ -32,6 +34,8 @@ public class GuiHandler implements IGuiHandler {
         	return new ContainerDigger(player.inventory, (TileEntityDigger)tileEntity, world);
         }else if(id == ID_GENERATOR){
         	return new ContainerGenerator(player.inventory, (TileEntityGenerator)tileEntity, world);
+        }else if(id == ID_CULTURE_BOX){
+        	return new ContainerCultureBox(player.inventory, (TileEntityCultureBox)tileEntity, world);
         }
         return null;
     }
@@ -48,6 +52,8 @@ public class GuiHandler implements IGuiHandler {
         	return new GuiDigger(player.inventory, (TileEntityDigger)tileEntity, world);
         }else if(id == ID_GENERATOR){
         	return new GuiGenerator(player.inventory, (TileEntityGenerator)tileEntity, world);
+        }else if(id == ID_CULTURE_BOX){
+        	return new GuiCultureBox(player.inventory, (TileEntityCultureBox)tileEntity, world);
         }
         return null;
 
